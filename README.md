@@ -1,5 +1,8 @@
 # Statistical-Model-using-R-for-Bank-Customers
 
+Developed a Classifier to predict whether a customer is going to open a deposit account.
+Data: Bank Dataset from UCI Repository https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
+
 Four separate classifiers (Decision Tree, Naïve Bayes, SVM, Neural Network) have been built and compared their performance in terms of Accuracy, Sensitivity, Specificity and Precision using 10 fold cross validation.
 
 Developed a weighted F measure to reflect selection. Calculated the weighted F models for the 4 models developed in part 1 and recommended the best model based on weighted F Measure.
@@ -64,8 +67,3 @@ Naïve Bayes(With PCA)	      0.888	  0.9611	      0.194	    0.8564	0.9371	0.8755
 ## Inference:
 Neural networks have no impact with and without PCA, while the other three model’s accuracy, precision, specificity, F1 and Measured F values have been marginally reduced with PCA and takes more time for execution.
 Even with PCA, Decision Tree has higher F1 and F2 values with more accuracy and precision compared to other models.
-
-
-
-
-
