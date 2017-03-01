@@ -1,6 +1,7 @@
 # Statistical-Model-using-R-for-Bank-Customers
 
 Developed a Classifier to predict whether a customer is going to open a deposit account.
+
 Data: Bank Dataset from UCI Repository https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 
 Four separate classifiers (Decision Tree, Naïve Bayes, SVM, Neural Network) have been built and compared their performance in terms of Accuracy, Sensitivity, Specificity and Precision using 10 fold cross validation.
